@@ -7,3 +7,9 @@ def cal_max(x: int, y: int, z: int) -> None:
     print (f"Max number of x, y, z is {max(x, y, z)}")
 
 cal_max(5, 7, 9)
+
+def max_marks(marks: list[int]) -> int:
+    return max(marks)
+
+marks = [65, 87, 98, 79]
+print (max_marks(marks))

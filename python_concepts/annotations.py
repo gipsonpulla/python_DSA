@@ -13,3 +13,9 @@ def max_marks(marks: list[int]) -> int:
 
 marks = [65, 87, 98, 79]
 print (max_marks(marks))
+
+def print_list(lst: list[int | str]):
+    print(lst)
+
+lst = [234, 344, 223, 556, "abc",  54.33]
+print_list(lst)
